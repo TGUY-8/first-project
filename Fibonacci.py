@@ -4,7 +4,7 @@
 def add_(n):
     if n==1 or n==2:
         return 1
-    elif n%1==0 and n>2:
+    elif n>2:
         return add_(n-1)+add_(n-2)
     else:
         return False
