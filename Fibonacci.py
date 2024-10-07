@@ -19,4 +19,4 @@ def main():
     except ValueError:
         print("Please enter a number!")
 if __name__=='__main__':
-    main()
+    main()#确保被其他模块导入时main()不会被直接执行
